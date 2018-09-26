@@ -1,0 +1,12 @@
+{
+  "name":"ethos-prom-dev",
+  "type":"prometheus",
+  "url":"http://api.dev.ethos.adobe.net:9090",
+  "access":"proxy",
+  "basicAuth":false,
+  "is_default": false,
+  "version": 1,
+  "editable": true,
+  "id": 2,
+  "orgId":1
+}
