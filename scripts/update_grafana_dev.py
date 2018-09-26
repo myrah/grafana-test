@@ -4,6 +4,8 @@ import requests, sys, os, json, glob
 
 
 access_token = 'eyJrIjoiWFA2MzFSZjZLRG5SZjFHRDNsNlROQktwWjd3Q2YyRkoiLCJuIjoiYWRtaW5rZXkiLCJpZCI6MX0='
+#access_token = 'eyJrIjoiYjZUN2ZNN0Flb0haRWRCVDdhMTI1MlVuMVcycUx1V0wiLCJuIjoiYWRtaW5fa2V5IiwiaWQiOjF9' 
+# change to .../prod dir for dashboards, datasources and alerts
 headers={
     'Authorization': 'Bearer ' + access_token,
     'content-type': 'application/json',
