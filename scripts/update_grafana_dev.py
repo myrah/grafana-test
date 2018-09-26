@@ -5,13 +5,13 @@ import requests, sys, os, json, glob
 
 access_token = 'eyJrIjoiWFA2MzFSZjZLRG5SZjFHRDNsNlROQktwWjd3Q2YyRkoiLCJuIjoiYWRtaW5rZXkiLCJpZCI6MX0='
 headers={
-    'Authorization': 'Bearer ' + 'eyJrIjoiWFA2MzFSZjZLRG5SZjFHRDNsNlROQktwWjd3Q2YyRkoiLCJuIjoiYWRtaW5rZXkiLCJpZCI6MX0=',
+    'Authorization': 'Bearer ' + access_token,
     'content-type': 'application/json',
     'Accept': 'application/json'
     }
-dsurl = 'http://0.0.0.0:3000/api/datasources'
+dsurl = 'http://172.20.0.4:3000/api/datasources'
 
-dburl = 'http://0.0.0.0:3000/api/dashboards/db'
+dburl = 'http://172.20.0.4:3000/api/dashboards/db'
 
 db_list = glob.glob("/var/jenkins_home/workspace/grafana-test/dashboards/dev/*.json")
 print(db_list)
