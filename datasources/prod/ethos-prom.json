@@ -1,0 +1,12 @@
+{
+  "name":"ethos-prom",
+  "type":"prometheus",
+  "url":"https://api.ethos.adobe.net",
+  "access":"direct",
+  "basicAuth":false,
+  "is_default": false,
+  "version": 1,
+  "editable": true,
+  "id": 3,
+  "orgId":1
+}
